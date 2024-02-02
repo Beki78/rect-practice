@@ -1,0 +1,9 @@
+img {
+  width: 370px;
+  border-radius: 5px;
+}
+.services ol li {
+  line-height: 1.5;
+  letter-spacing: 1.1px;
+  margin-top: 6em;
+}

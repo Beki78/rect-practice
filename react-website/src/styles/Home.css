@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(33, 33, 33);
+    color: lightgray;
+    font-family:  sans-serif;
+}
+.homeContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7em;
+}
+.homeHeader{
+    width: 40%;
+}
+.homeIcons{
+    display: flex;
+    gap: 2em;
+    font-size: 1.4em;
+}
+.icons:hover{
+    color: yellow;
+}
+.homeHeader button{
+    margin: 1.7em 0 0 1.8em;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: yellow;
+    font-family: monospace;
+
+}
+.homeHeader button:hover{
+    background-color: white;
+}
+.homeRightSide{
+    background-image: url("https://cdn.britannica.com/05/236505-050-17B6E34A/Elon-Musk-2022.jpg");
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0px 5px 5px 5px rgba(255, 255, 0, 0.1);
+    animation: animete 5s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+}
+@keyframes animete{
+    0%, 100%{
+        border-radius: 60% 40% 30% 70%/60%  30% 70% 40%;
+    }
+    50%{
+        border-radius: 30% 60% 70% 40% /50%  60% 30% 60%;
+    }
+    
+}

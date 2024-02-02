@@ -1,0 +1,36 @@
+.contactContainer {
+  display: flex;
+}
+.left h1 {
+  font-size: 2rem;
+  color: yellow;
+  margin-left: 7em;
+}
+form input,
+textarea {
+  display: block;
+  border: none;
+  outline: none;
+  margin-top: 0.7em;
+  margin-left: 10em;
+  width: 400px;
+  padding: 1.3em;
+  border-radius: 10px;
+  background-color: rgb(30, 30, 30);
+  color: white;
+  font-family: monospace;
+}
+button {
+  margin-left: 10em;
+  margin-top: 0.7em;
+  background-color: yellow;
+  padding: .6em;
+  width: 8em;
+  font-weight: 700;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+img{
+    margin-top: 5em;
+    width: 460px;
+}
